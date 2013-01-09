@@ -3,7 +3,7 @@ package edu.xidian.wxLinkedList;
 public class SinglyLinkedList {
 
 	/**
-	 * merger two sorted list
+	 * merger two sorted list ¹þ¹þ
 	 * @param node1
 	 * @param node2
 	 * @return
