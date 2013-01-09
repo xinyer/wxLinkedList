@@ -3,7 +3,7 @@ package edu.xidian.wxLinkedList;
 public class SinglyLinkedList {
 
 	/**
-	 * 合并两个排好序的单链表
+	 * merger two sorted list
 	 * @param node1
 	 * @param node2
 	 * @return
@@ -28,7 +28,7 @@ public class SinglyLinkedList {
 	}
 	
 	/**
-	 * 初始化单链表
+	 * initialize list
 	 * @param val
 	 * @return
 	 */
@@ -59,10 +59,10 @@ public class SinglyLinkedList {
 	}*/
 	
 	/**
-	 * 打印单链表
+	 * print list
 	 * @param head
 	 */
-	public static void printList(Node<Object> head){
+	public static void printList(Node head){
 		do{
 			System.out.print(head.value+" ");
 			head = head.next;
